@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:smart_tajwid/screens/home_screen.dart';
 import 'package:smart_tajwid/screens/splash_screen.dart';
 
 void main() {
@@ -19,7 +20,7 @@ class TajwidApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       debugShowCheckedModeBanner: false,
-      home: const SplashScreen(),
+      home: const HomeScreen(),
     );
   }
 }

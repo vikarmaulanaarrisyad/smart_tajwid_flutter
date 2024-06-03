@@ -2,6 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:smart_tajwid/globals.dart';
+import 'package:smart_tajwid/tabs/beranda_tab.dart';
+import 'package:smart_tajwid/tabs/markhroj_tab.dart';
+import 'package:smart_tajwid/tabs/pengertian_tab.dart';
+import 'package:smart_tajwid/tabs/tajwid_tab.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -12,33 +16,93 @@ class HomeScreen extends StatelessWidget {
         backgroundColor: background,
         appBar: _appBar(),
         bottomNavigationBar: _bottomNavigationBar(),
-        body: Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 24),
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              Text(
-                "Welcome To",
-                style: GoogleFonts.poppins(
-                    fontSize: 18, fontWeight: FontWeight.w500, color: text),
-              ),
-              const SizedBox(
-                height: 4,
-              ),
-              Text(
-                "Smart Tajwid Apps",
-                style: GoogleFonts.poppins(
-                    fontSize: 20,
-                    fontWeight: FontWeight.w600,
-                    color: Colors.white),
-              ),
-              const SizedBox(
-                height: 24,
-              ),
-              _lastRead()
-            ],
+        body: DefaultTabController(
+          length: 4,
+          child: Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 24),
+            child: NestedScrollView(
+                headerSliverBuilder: (context, innerBoxIsScrolled) => [
+                      SliverToBoxAdapter(
+                        child: _greating(),
+                      ),
+                      SliverAppBar(
+                        pinned: true,
+                        elevation: 0,
+                        shape: Border(
+                            bottom: BorderSide(
+                          width: 3,
+                          color: const Color(0XFFAAAAAA).withOpacity(.1),
+                        )),
+                        backgroundColor: background,
+                        automaticallyImplyLeading: false,
+                        bottom: PreferredSize(
+                          preferredSize: const Size.fromHeight(0),
+                          child: _tab(),
+                        ),
+                      )
+                    ],
+                body: const TabBarView(
+                  children: [
+                    BerandaTab(),
+                    PengertianTab(),
+                    MarkhrojTab(),
+                    TajwidTab()
+                  ],
+                )),
           ),
         ));
+  }
+
+  TabBar _tab() {
+    return TabBar(
+        unselectedLabelColor: text,
+        labelColor: Colors.white,
+        indicatorColor: primary,
+        indicatorWeight: 4,
+        tabs: [
+          _tabItem(label: "Beranda"),
+          _tabItem(label: "Pengertian"),
+          _tabItem(label: "markhroj"),
+          _tabItem(label: "Tajwid"),
+        ]);
+  }
+
+  Tab _tabItem({required String label}) {
+    return Tab(
+      child: Text(
+        label,
+        style: GoogleFonts.poppins(
+          color: text,
+          fontSize: 13,
+          fontWeight: FontWeight.w600,
+        ),
+      ),
+    );
+  }
+
+  Column _greating() {
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Text(
+          "Welcome To",
+          style: GoogleFonts.poppins(
+              fontSize: 18, fontWeight: FontWeight.w500, color: text),
+        ),
+        const SizedBox(
+          height: 4,
+        ),
+        Text(
+          "Smart Tajwid Apps",
+          style: GoogleFonts.poppins(
+              fontSize: 20, fontWeight: FontWeight.w600, color: Colors.white),
+        ),
+        const SizedBox(
+          height: 24,
+        ),
+        _lastRead()
+      ],
+    );
   }
 
   Stack _lastRead() {
