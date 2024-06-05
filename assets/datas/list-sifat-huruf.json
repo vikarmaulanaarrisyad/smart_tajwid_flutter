@@ -1,0 +1,94 @@
+{
+  "sifat_huruf": [
+    {
+      "sifat": "Jahr",
+      "penjelasan": "Jelas/tertahannya udara",
+      "huruf": []
+    },
+    {
+      "sifat": "Rakhawah",
+      "penjelasan": "Mengalirnya suara",
+      "huruf": []
+    },
+    {
+      "sifat": "Istifal",
+      "penjelasan": "Merendahnya lidah",
+      "huruf": []
+    },
+    {
+      "sifat": "Infitah",
+      "penjelasan": "Terbukanya lidah dengan langit-langit",
+      "huruf": []
+    },
+    {
+      "sifat": "Ishmat",
+      "penjelasan": "Lebih sulit keluar",
+      "huruf": []
+    },
+    {
+      "sifat": "Hams",
+      "penjelasan": "Mengalirnya udara",
+      "huruf": ["Fa", "Ha", "Tsa", "Syin", "Kha", "Shad", "Sin", "Kaf", "Ta"]
+    },
+    {
+      "sifat": "Syiddah",
+      "penjelasan": "Tertahannya suara",
+      "huruf": ["Alif", "Jim", "Dal", "Qaf", "To", "Ba", "Kaf", "Ta"]
+    },
+    {
+      "sifat": "Tawassut",
+      "penjelasan": "Pertengahan antara Rakhawah dan Syiddah",
+      "huruf": ["Lam", "Nun", "Ain", "Mim", "Ra"]
+    },
+    {
+      "sifat": "Isti’la",
+      "penjelasan": "Lidah terangkat saat mengucapkan",
+      "huruf": ["Kha", "Shad", "Dhad", "Ghain", "Tha", "Qaf", "Zha"]
+    },
+    {
+      "sifat": "Ithbaq",
+      "penjelasan": "Lidah terangkat sangat tinggi hingga seolah-olah menempel langit-langit",
+      "huruf": ["Shad", "Dhad", "Tha", "Zha"]
+    },
+    {
+      "sifat": "Idzlaq",
+      "penjelasan": "Lebih mudah dan cepat dikeluarkan",
+      "huruf": ["Fa", "Ra", "Mim", "Nun", "Lam", "Ba"]
+    },
+    {
+      "sifat": "Shafir",
+      "penjelasan": "Huruf yang berdesis",
+      "huruf": ["Shad", "Zay", "Sin"]
+    },
+    {
+      "sifat": "Qalqalah",
+      "penjelasan": "Pantulan suara saat berhenti",
+      "huruf": ["Qaf", "To", "Ba", "Jim", "Dal"]
+    },
+    {
+      "sifat": "Liin",
+      "penjelasan": "Lembut",
+      "huruf": ["Wawu", "Ya"]
+    },
+    {
+      "sifat": "Inhiraf",
+      "penjelasan": "Menyimpangnya makhraj",
+      "huruf": ["Lam", "Ra"]
+    },
+    {
+      "sifat": "Takrir",
+      "penjelasan": "Getaran yang berulang",
+      "huruf": ["Ra"]
+    },
+    {
+      "sifat": "Tafasysyi",
+      "penjelasan": "Udara yang berhembus deras di dalam mulut",
+      "huruf": ["Shin"]
+    },
+    {
+      "sifat": "Istithaalah",
+      "penjelasan": "Memanjangnya makhraj Dhad dari sisi ujung lidah hingga ujung sisi lidah pada makhraj Lam",
+      "huruf": ["Dhad"]
+    }
+  ]
+}

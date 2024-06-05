@@ -17,7 +17,7 @@ class HomeScreen extends StatelessWidget {
         appBar: _appBar(),
         bottomNavigationBar: _bottomNavigationBar(),
         body: DefaultTabController(
-          length: 4,
+          length: 3,
           child: Padding(
             padding: const EdgeInsets.symmetric(horizontal: 24),
             child: NestedScrollView(
@@ -44,7 +44,7 @@ class HomeScreen extends StatelessWidget {
                 body: const TabBarView(
                   children: [
                     BerandaTab(),
-                    PengertianTab(),
+                    // PengertianTab(),
                     MarkhrojTab(),
                     TajwidTab()
                   ],
@@ -58,10 +58,10 @@ class HomeScreen extends StatelessWidget {
         unselectedLabelColor: text,
         labelColor: Colors.white,
         indicatorColor: primary,
-        indicatorWeight: 4,
+        indicatorWeight: 3,
         tabs: [
           _tabItem(label: "Beranda"),
-          _tabItem(label: "Pengertian"),
+          // _tabItem(label: "Pengertian"),
           _tabItem(label: "markhroj"),
           _tabItem(label: "Tajwid"),
         ]);

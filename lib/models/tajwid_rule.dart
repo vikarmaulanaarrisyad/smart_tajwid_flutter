@@ -1,15 +1,25 @@
 class TajwidRule {
-  final String name;
-  final String definition;
-  final String example;
+  final String title;
+  final String description;
+  final List<String> examples;
   final String nadhom;
-  final List<String> letters;
+  final String nadhomMeaning;
 
   TajwidRule({
-    required this.name,
-    required this.definition,
-    required this.example,
+    required this.title,
+    required this.description,
+    required this.examples,
     required this.nadhom,
-    required this.letters,
+    required this.nadhomMeaning,
   });
+
+  factory TajwidRule.fromJson(Map<String, dynamic> json) {
+    return TajwidRule(
+      title: json['title'],
+      description: json['description'],
+      examples: List<String>.from(json['examples']),
+      nadhom: json['nadhom'],
+      nadhomMeaning: json['nadhomMeaning'],
+    );
+  }
 }
