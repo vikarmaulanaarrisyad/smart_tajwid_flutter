@@ -16,7 +16,7 @@ class BerandaTab extends StatelessWidget {
   }
 
   @override
-  Widget build(BuildContext context) {
+    Widget build(BuildContext context) {
     return FutureBuilder<List<Surah>>(
       future: _getSurahList(),
       initialData: const [],

@@ -1,0 +1,187 @@
+{
+  "hukum_nun_sukun_dan_tanwin": [
+    {
+      "nama": "Idhar Halqi",
+      "deskripsi": "Pertama adalah Idzhar sebelum enam huruf tenggorokan yang tersusun, maka ketahuilah.",
+      "huruf": ["ء", "ح", "خ", "ع", "غ", "هـ"],
+      "kesimpulan": "Idhar Halqi adalah apabila ada nun mati atau tanwin bertemu dengan salah satu huruf (ء) (ح) (خ) (ع) (غ) (هـ). Idhar artinya jelas dan halqi artinya kerongkongan.",
+      "contoh": [
+        "غَافِلٍ عَمَّا تَعْمَلُونَ",
+        "فَكُلُوا مِنْهَا حَيْثُ",
+        "عَزِيزٌ حَكِيمٌ"
+      ]
+    },
+    {
+      "nama": "Idgham Bigunnah",
+      "deskripsi": "Kedua adalah Idgham yang memiliki 6 huruf yang terkumpul dalam kata: يرملون",
+      "huruf": ["ي", "ن", "م", "و"],
+      "kesimpulan": "Apabila nun mati atau tanwin bertemu dengan salah satu huruf ي ن م و. Idgham artinya memasukkan, dan bigunnah artinya mendengung. Jadi cara membacanya dengan ditasydidkan ke dalam salah satu huruf idham dengan suara yang mendengung.",
+      "contoh": [
+        "بِبُهْتَانٍ يَفْتَرِينَهُ",
+        "حِطَّةٌ نَغْفِرْ لَكُمْ",
+        "مِنْ خَيْلٍ وَلَا رِكَابٍ"
+      ]
+    },
+    {
+      "nama": "Idgham Bilaghunah",
+      "deskripsi": "Yang kedua adalah idgham bighairi ghunnah yaitu untuk huruf lam dan ra, lalu getarkanlah",
+      "huruf": ["ل", "ر"],
+      "kesimpulan": "Apabila ada nun sukun atau tanwin bertemu dengan salah satu huruf ل ر. Idgham artinya memasukkan, bilaghunnah artinya tidak mendengung. Jadi cara membacanya dengan ditasydidkan ke dalam salah satu huruf idham dengan suara yang tidak mendengung.",
+      "contoh": ["فَضْلًا مِنْ رَبِّكَ", "لَا تَجْعَلْنَا فِتْنَةً لِلَّذِينَ"]
+    },
+    {
+      "nama": "Iqlab",
+      "deskripsi": "Ketiga adalah Iqlab yaitu ketika bertemu Ba, maka dibaca mim yang didengungkan serta disamarkan.",
+      "huruf": ["ب"],
+      "kesimpulan": "Apabila ada nun sukun atau tanwin bertemu dengan huruf ب. Iqlab artinya meleburkan atau lebih mudahnya cara membacanya dengan menukar huruf menjadi huruf mim.",
+      "contoh": ["أَنْ تُنْبِتُوا", "كُلُّ حِزْبٍ بِمَا"]
+    },
+    {
+      "nama": "Ikhfa Haqiqi",
+      "deskripsi": "Keempat adalah Ikhfa yaitu untuk sisa huruf yang wajib bagi orang yang mulia",
+      "huruf": [
+        "ت",
+        "ث",
+        "ج",
+        "د",
+        "ذ",
+        "ز",
+        "س",
+        "ش",
+        "ص",
+        "ض",
+        "ط",
+        "ظ",
+        "ف",
+        "ق",
+        "ك"
+      ],
+      "kesimpulan": "Apabila ada nun sukun atau tanwin bertemu dengan salah satu huruf ت ث ج د ذ ز س ش ص ض ط ظ ف ق ك. Ikhfa artinya samar dan Haqiqi artinya sungguh-sungguh. Jadi cara membacanya harus terang dengan adanya dengung.",
+      "contoh": ["أَنْتُمْ", "أُنْزِلَ", "صَعِيدًا طَيِّبًا"]
+    }
+  ],
+  "hukum_mim_sukun": [
+    {
+      "nama": "Ikhfa Syafawi",
+      "deskripsi": "Pertama, Ikhfa yaitu ketika huruf Ba (didahului mim sukun). Ahli Qiroah menyebutnya Ikhfa Syafawy",
+      "huruf": ["ب"],
+      "kesimpulan": "Apabila ada mim sukun bertemu dengan ب. Caranya menyamarkan suara mim mati dengan diiringi dengungan. Meskipun dengungnya tidak terlalu terdengar jelas karena huruf mim mati dan ba memiliki tempat keluar yang sama yaitu dua bibir.",
+      "contoh": [
+        "وَمَا هُمْ بِمُؤْمِنِينَ",
+        "وَهُمْ بِالْآَخِرَةِ",
+        "عَلَيْهِمْ بِعِلْمٍ"
+      ]
+    },
+    {
+      "nama": "Idgham Mimi / Mutamatsilain",
+      "deskripsi": "Kedua, Idgham (dengan huruf yang sama yaitu bertemu mim juga). Namakanlah Idgham Shaghir (kecil) wahai pemuda.",
+      "huruf": ["م"],
+      "kesimpulan": "Apabila ada mim sukun bertemu dengan huruf م.",
+      "contoh": [
+        "وَكَمْ مِنْ قَرْيَةٍ",
+        "لَيْكُمْ مِنْ رَبِّكُمْ",
+        "أَضَاءَ لَهُمْ مَشَوْا فِيهِ"
+      ]
+    },
+    {
+      "nama": "Idhar Syafawi",
+      "deskripsi": "Ketiga, Idzhar, pada huruf-huruf sisanya. Dan namakanlah Idzhar Syafawi",
+      "huruf": [
+        "ا",
+        "ت",
+        "ث",
+        "ج",
+        "ح",
+        "خ",
+        "د",
+        "ذ",
+        "ر",
+        "ز",
+        "س",
+        "ش",
+        "ص",
+        "ض",
+        "ط",
+        "ظ",
+        "ع",
+        "غ",
+        "ف",
+        "ق",
+        "ك",
+        "ل",
+        "ن",
+        "و",
+        "ه",
+        "ي"
+      ],
+      "kesimpulan": "Apabila ada mim sukun bertemu dengan salah satu huruf ا ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ك ل ن و ه ي maka tetap harus dibaca jelas meski mulut tertutup.",
+      "contoh": [
+        "أَنَّ لَهُمْ جَنَّاتٍ",
+        "ذَلِكُمْ خَيْرٌ لَكُمْ",
+        "ثَلَاثَةَ أَيَّامٍ إِلَّا رَمْزًا"
+      ]
+    }
+  ],
+  "hukum_lam_ta'rif": [
+    {
+      "nama": "Idhar Qomariyah",
+      "deskripsi": "Lam pertama disebut alif lam qomariyyah",
+      "huruf": [
+        "ء",
+        "ب",
+        "ج",
+        "ح",
+        "خ",
+        "ع",
+        "غ",
+        "ف",
+        "ق",
+        "ك",
+        "م",
+        "و",
+        "ه",
+        "ي"
+      ],
+      "kesimpulan": "Apabila ada lam ta’rief bertemu dengan huruf ء ب ج ح خ ع غ ف ق ك م و ه ي, maka cara membacanya harus jelas. Qamar dalam bahasa arab memiliki arti bulan. Sedangkan lam ta’rief diumpamakan dengan bintang. Hal ini karena bintang tetap terlihat meskipun bertemu dengan bulan.",
+      "contoh": [
+        "فَارْجِعِ الْبَصَرَ",
+        "أَصْحَابَ الْجَنَّةِ",
+        "وَهُوَ اللَّطِيفُ الْخَبِيرُ"
+      ]
+    },
+    {
+      "nama": "Idgham Syamsiyah",
+      "deskripsi": "Lam kedua disebut Alif lam Syamsiyyah",
+      "huruf": [
+        "ت",
+        "ث",
+        "د",
+        "ذ",
+        "ر",
+        "ز",
+        "س",
+        "ش",
+        "ص",
+        "ض",
+        "ط",
+        "ظ",
+        "ل",
+        "ن"
+      ],
+      "kesimpulan": "Apabila ada lam ta’rief bertemu dengan huruf ت ث د ذ ر ز س ش ص ض ط ظ ل ن,  Syamsiyah memiliki arti matahari, maka jika alif lam yang diumpakan bintang, bertemu dengan matahari, maka jadi tidak terlalu kelihatan. Karena tidak terbaca ini, maka alif lam yang bertemu dengan huruf syamsiyah, seperti ditasydidkan, atau dimasukkan ke huruf berikutnya.",
+      "contoh": ["مِنَ الثَّمَرَاتِ", "وَالزَّيْتُوْنِ", "مِنَ الظَّالِمِينَ"]
+    }
+  ],
+  "hukum_idgham_mutamatsilain": {
+    "deskripsi": "Jika (pada dua huruf) Sifat dan Makhraj hurufnya sama, maka ia disebut Mitslain (Mutamatsilain). Hukum bacaan ini terjadi apabila suatu huruf bertemu dengan huruf yang sama sedang huruf yang pertama sukun.",
+    "contoh": ["ﻗَﺪ ﺩَﺧَﻠُﻮْا", "ﻳَﻌَﺬِّﺑُﻬُﻢْ ﺍﻟﻠﻪ"]
+  },
+  "hukum_idgham_mutaqaribain": {
+    "deskripsi": "Jika Sifat hurufnya berbeda, dan Makhraj hurufnya sama, maka ia disebut Mutaqaribain.",
+    "contoh": ["ﺍَﻟﻤَﻨُﻮْﻥَ ﻭَ ﺍَﻟﻨَﻮْﻡَ", "ﻓَﻠَﺴَﻮْﻑَ"]
+  },
+  "hukum_idgham_mutajanisain": {
+    "deskripsi": "Jika Sifat dan Makhraj hurufnya berbeda, maka ia disebut Mutajanisain.",
+    "contoh": ["ﻛَﺬٰﻟِﻚَ ﻧَﺠْﺰِﻱ ﺍَﻟﻘَﻮْﻡَ", "ﻳَﻌْﻠَﻢُ"]
+  }
+}

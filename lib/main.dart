@@ -20,7 +20,7 @@ class TajwidApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       debugShowCheckedModeBanner: false,
-      home: const SplashScreen(),
+      home: const HomeScreen(),
     );
   }
 }
