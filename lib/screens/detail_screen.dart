@@ -60,13 +60,15 @@ class DetailScreen extends StatelessWidget {
                   Row(
                     mainAxisAlignment: MainAxisAlignment.end,
                     children: [
-                      Text(
-                        tajwid.deskripsi,
-                        textAlign: TextAlign.right,
-                        style: GoogleFonts.amiri(
-                          color: Colors.white,
-                          fontSize: 15,
-                          fontWeight: FontWeight.bold,
+                      Expanded(
+                        child: Text(
+                          tajwid.deskripsi,
+                          textAlign: TextAlign.right,
+                          style: GoogleFonts.amiri(
+                            color: Colors.white,
+                            fontSize: 15,
+                            fontWeight: FontWeight.bold,
+                          ),
                         ),
                       ),
                     ],
