@@ -169,12 +169,19 @@
         "ن"
       ],
       "kesimpulan": "Apabila ada lam ta’rief bertemu dengan huruf ت ث د ذ ر ز س ش ص ض ط ظ ل ن,  Syamsiyah memiliki arti matahari, maka jika alif lam yang diumpakan bintang, bertemu dengan matahari, maka jadi tidak terlalu kelihatan. Karena tidak terbaca ini, maka alif lam yang bertemu dengan huruf syamsiyah, seperti ditasydidkan, atau dimasukkan ke huruf berikutnya.",
-      "contoh": ["مِنَ الثَّمَرَاتِ", "وَالزَّيْتُوْنِ", "مِنَ الظَّالِمِينَ"]
+      "contoh": 
+      [
+        "مِنَ الثَّمَرَاتِ",
+         "وَالزَّيْتُوْنِ", 
+         "مِنَ الظَّالِمِينَ"
+        ]
     }
   ],
   "hukum_idgham_mutamatsilain": {
     "deskripsi": "Jika (pada dua huruf) Sifat dan Makhraj hurufnya sama, maka ia disebut Mitslain (Mutamatsilain). Hukum bacaan ini terjadi apabila suatu huruf bertemu dengan huruf yang sama sedang huruf yang pertama sukun.",
-    "contoh": ["ﻗَﺪ ﺩَﺧَﻠُﻮْا", "ﻳَﻌَﺬِّﺑُﻬُﻢْ ﺍﻟﻠﻪ"]
+    "contoh": [
+      "ﻗَﺪ ﺩَﺧَﻠُﻮْا",
+     "ﻳَﻌَﺬِّﺑُﻬُﻢْ ﺍﻟﻠﻪ"]
   },
   "hukum_idgham_mutaqaribain": {
     "deskripsi": "Jika Sifat hurufnya berbeda, dan Makhraj hurufnya sama, maka ia disebut Mutaqaribain.",
