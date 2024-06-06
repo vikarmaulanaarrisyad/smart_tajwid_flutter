@@ -124,7 +124,7 @@ class DetailScreen extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.end,
                     children: [
                       Text(
-                        tajwid.contoh,
+                        'Contoh :  ' + tajwid.contoh,
                         textAlign: TextAlign.right,
                         style: GoogleFonts.amiri(
                           color: Colors.white,

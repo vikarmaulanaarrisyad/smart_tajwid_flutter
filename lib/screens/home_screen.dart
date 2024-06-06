@@ -142,7 +142,7 @@ class HomeScreen extends StatelessWidget {
                     width: 8,
                   ),
                   Text(
-                    'Last Read',
+                    'Tajwid Apps',
                     style: GoogleFonts.poppins(
                         color: Colors.white, fontWeight: FontWeight.w500),
                   ),
@@ -151,13 +151,13 @@ class HomeScreen extends StatelessWidget {
               const SizedBox(
                 height: 20,
               ),
-              Text(
-                'Idhom Bigunnah',
-                style: GoogleFonts.poppins(
-                    color: Colors.white,
-                    fontWeight: FontWeight.w600,
-                    fontSize: 14),
-              ),
+              // Text(
+              //   'Idhom Bigunnah',
+              //   style: GoogleFonts.poppins(
+              //       color: Colors.white,
+              //       fontWeight: FontWeight.w600,
+              //       fontSize: 14),
+              // ),
             ],
           ),
         )
