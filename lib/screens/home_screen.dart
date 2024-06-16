@@ -15,7 +15,7 @@ class HomeScreen extends StatelessWidget {
     return Scaffold(
         backgroundColor: background,
         appBar: _appBar(),
-        bottomNavigationBar: _bottomNavigationBar(),
+        // bottomNavigationBar: _bottomNavigationBar(),
         body: DefaultTabController(
           length: 3,
           child: Padding(
@@ -199,10 +199,13 @@ class HomeScreen extends StatelessWidget {
         showSelectedLabels: false,
         showUnselectedLabels: false,
         items: [
-          _bottomBarItem(icon: "assets/svgs/quran-icon.svg", label: "Tajwid"),
-          _bottomBarItem(icon: "assets/svgs/lamp-icon.svg", label: "Tips"),
+          _bottomBarItem(
+            icon: "assets/svgs/quran-icon.svg",
+            label: "Tajwid",
+          ),
           _bottomBarItem(icon: "assets/svgs/pray-icon.svg", label: "Prayer"),
-          _bottomBarItem(icon: "assets/svgs/doa-icon.svg", label: "Doa"),
+          _bottomBarItem(icon: "assets/svgs/lamp-icon.svg", label: "Tips"),
+          // _bottomBarItem(icon: "assets/svgs/doa-icon.svg", label: "Doa"),
         ],
       );
 
