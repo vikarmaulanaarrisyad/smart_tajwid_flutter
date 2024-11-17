@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:smart_tajwid/screens/home_screen.dart';
 import 'package:smart_tajwid/screens/splash_screen.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 void main() {
   runApp(const TajwidApp());
